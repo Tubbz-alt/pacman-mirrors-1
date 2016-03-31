@@ -1,6 +1,0 @@
-##
-## Pacman Mirrorlist
-##
-
-[Denmark]
-Server = http://mirrors.dotsrc.org/manjaro/$branch/$repo/$arch
