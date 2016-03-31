@@ -3,4 +3,4 @@
 ##
 
 [United_States]
-Server = manjaro-arm.org/repo/$repo/$arch
+Server = http://manjaro-arm.org/repo/$repo/$arch
