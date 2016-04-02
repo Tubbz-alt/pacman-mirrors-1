@@ -3,4 +3,4 @@
 ##
 
 [Denmark]
-Server = http://mirror.strits.dk/manjaro-arm/$arch/$repo
+Server = http://mirror.strits.dk/manjaro-arm/$branch/$arch/$repo
