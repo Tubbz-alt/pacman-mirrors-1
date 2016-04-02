@@ -1,0 +1,6 @@
+##
+## Pacman Mirrorlist
+##
+
+[Denmark]
+Server = http://mirror.strits.dk/manjaro-arm/$arch/$repo
