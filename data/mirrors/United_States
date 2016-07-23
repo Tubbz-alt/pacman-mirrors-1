@@ -4,3 +4,4 @@
 
 [United_States]
 Server = http://repo.manjaro-arm.org/$branch/$arch/$repo
+Server = http://ftp-osl.osuosl.org/pub/manjaro-arm/repo/$branch/$arch/$repo
