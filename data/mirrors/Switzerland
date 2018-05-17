@@ -1,0 +1,7 @@
+##
+## Pacman Mirrorlist
+##
+
+[Switzerland]
+Server = https://mirror.scachemaille.ch/manjaro-arm/$branch/$arch/$repo
+
