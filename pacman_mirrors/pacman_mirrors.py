@@ -27,6 +27,7 @@ import os
 import sys
 import tempfile
 import time
+import ssl
 from builtins import staticmethod
 from decimal import Decimal
 from operator import itemgetter
@@ -317,8 +318,9 @@ class PacmanMirrors:
 
                         start = time.time()
                         req = Request(url)
+                        context = ssl.create_default_context()
                         try:
-                            with urlopen(req, timeout=self.max_wait_time) as r:
+                            with urlopen(req, timeout=self.max_wait_time, context=context) as r:
                                 resp = r.read()
                                 d = resp.find(b"date=")
                         except URLError as e:
